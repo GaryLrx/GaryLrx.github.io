@@ -1,0 +1,130 @@
+/* TABLE DES STYLES */
+/*                  */
+/* GLOBALS          */
+/* HEADER & NAV     */
+/* MAIN             */
+/*                  */
+/*                  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1,h2{
+    margin: 40px 0;
+}
+
+/* HEADER & MENU DE NAVIGATION */
+
+header{
+    background-color: black;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+header nav{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header nav .logo{
+    text-transform: uppercase;
+}
+
+header nav p{
+    border: 2px solid white;
+    width: fit-content;
+    padding: 15px 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+header nav ul{
+    text-align: center;
+}
+
+header nav li{
+    list-style-type: none;
+}
+
+header nav a{
+    display: block;
+    padding: 15px 30px;
+    color: white;
+}
+
+/* MAIN */
+
+main{
+    max-width: 1150px;
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+}
+
+main .justeLeTexte{
+    text-align: justify;
+}
+
+main img{
+    width: 100%;
+    font-size: 0;
+}
+
+main .imageFlottanteDroite{
+    padding-bottom: 30px;
+}
+
+main .imageFlottanteGauche{
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:1024px){
+    main img{
+        width:500px;
+    }
+
+    .imageFlottanteDroite{
+        float: right;
+        padding-left: 30px;
+        padding-bottom:15px;
+    }
+
+    .imageFlottanteGauche{
+        float: left;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+
+    header nav{
+        display: flex;
+        justify-items: center;
+    }
+
+    header nav p{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .logo{
+        flex: 1;
+    }
+
+    header nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav a{
+        padding: 0px 30px 0px 30px;
+    }
+
+    header nav li:last-of-type a{
+        padding-right: 0;
+    }
+
+    
+}
