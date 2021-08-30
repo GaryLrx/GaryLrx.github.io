@@ -3,7 +3,7 @@
 /* GLOBALS          */
 /* HEADER & NAV     */
 /* MAIN             */
-/*                  */
+/* MEDIA QUERIES    */ 
 /*                  */
 
 *{
@@ -80,6 +80,8 @@ main .imageFlottanteDroite{
 main .imageFlottanteGauche{
     padding-bottom: 30px;
 }
+
+/* MEDIA QUERIES    */ 
 
 @media screen and (min-width:1024px){
     main img{
