@@ -3,7 +3,7 @@
 /* GLOBALS          */
 /* HEADER & NAV     */
 /* MAIN             */
-/*                  */
+/* /* MEDIA QUERIES */                 
 /*                  */
 
 *{
@@ -214,6 +214,8 @@ footer{
     text-align: center;
     margin-top: 2rem;
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width:1169px){
     main .inline-scnd-container{flex-direction: column-reverse;}
